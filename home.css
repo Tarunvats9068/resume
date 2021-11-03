@@ -492,7 +492,7 @@ input{
         width: 80vw;
         height: 60vh;
         border: 2px solid red;
-        box-shadow: 10px -10px 10px -10px red;
+        box-shadow: 10px 0px 10px 0px red;
     
     }
     .contactdiv2{  

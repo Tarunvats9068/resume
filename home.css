@@ -314,6 +314,7 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: absolute;
     height: 250px;
     width: 250px;
@@ -441,3 +442,88 @@ input{
     margin-left: 500px;
     margin-top: 20px;
 }
+@media screen and (max-width:576px){
+
+    #imgtag img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        margin-top: -350px;
+        margin-left: -120px;
+        box-shadow: 10px 0px 10px 0px lightgrey;
+    }
+    .educationdiv div:nth-child(2n){
+        width: 75vw;
+        border: red 2px solid;
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .educationdiv div:nth-child(2n+1){
+        width: 75vw; 
+    }
+    .contactdiv1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        justify-items: center;
+        /* width: 90vw; */
+    
+    }
+    .contactdiv3{
+      
+        width: 60vw;
+        height: 60vh;
+        border: 2px solid red;
+        box-shadow: 10px 0px 10px 0px red;
+    
+    }
+    .contactdiv2{  
+        margin-top: 50px;
+        width: 60vw;
+        height: 40vh;
+        border: 2px solid red;
+        box-shadow: 10px 0px 10px 0px red;
+    }
+    #form1 ul li {
+        /* margin: 5px; */
+        /* margin-left: -20px; */
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        justify-items:center;
+        align-items: center;
+        align-content: space-between;
+        font-family: sans-serif;
+        list-style: none;
+        margin-left: -20px;
+    }
+  textarea{
+      margin-left: -20px;
+  }
+  .icons ul li{
+    margin-top: 50px;
+    list-style: none;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px;
+}
+body{
+    margin-top: -32px;
+}
+.divabout{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+
+}
+
+}
+    

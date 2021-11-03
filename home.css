@@ -1,5 +1,5 @@
 body{
-    margin: 0px;
+    margin-top: -32px;
     padding: 0px;
 }
 .header{
@@ -340,8 +340,6 @@ h2 {
     text-align: center;
     padding:0px;
     margin-left:-30px;
-  
-
 }
 .divskills1 ul li{
     display: inline-block;
@@ -440,13 +438,12 @@ input{
 {
     width:35vw;
     border: red 2px solid;
-    
-    
+    margin-left: -500px;  
 }
 .educationdiv div:nth-child(2n){
     width: 35vw;
     border: red 2px solid;
-    margin-left: 500px;
+    margin-left: 550px;
     margin-top: 20px;
 }
 @media screen and (max-width:576px){
@@ -465,13 +462,21 @@ input{
         box-shadow: 10px 0px 10px 0px lightgrey;
     }
     .educationdiv div:nth-child(2n){
-        width: 75vw;
+        background:black;
+        width: 80vw;
         border: red 2px solid;
         margin-left: 0px;
         margin-top: 20px;
+        color: red;
+        font-family: sans-serif;
+        text-align: start;
     }
     .educationdiv div:nth-child(2n+1){
-        width: 75vw; 
+        width: 80vw; 
+        margin-left: 0px;
+        color: red;
+        background:black;
+        text-align: start;
     }
     .contactdiv1{
         display: flex;
@@ -487,7 +492,7 @@ input{
         width: 80vw;
         height: 60vh;
         border: 2px solid red;
-        box-shadow: 10px 0px 10px 0px red;
+        box-shadow: 10px -10px 10px -10px red;
     
     }
     .contactdiv2{  

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,14 +18,17 @@
   },
   "homepage": "https://github.com/Tarunvats9068/resume#readme",
   "dependencies": {
+    "connect-flash": "^0.1.1",
     "cookie-parser": "^1.4.6",
     "ejs": "^3.1.8",
     "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
     "express.js": "^1.0.0",
     "mongoose": "^6.6.5",
     "nodemailer": "^6.8.0",
     "nodemon": "^2.0.20",
     "passport": "^0.6.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
   }
 }
